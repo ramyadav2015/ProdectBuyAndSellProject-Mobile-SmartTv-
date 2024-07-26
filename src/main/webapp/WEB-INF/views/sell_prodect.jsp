@@ -46,7 +46,7 @@
                         </div>
                         <div class="col-md-6 mb-3">
                             <label for="image" class="form-label">Product Image URL</label>
-                            <input type="file" class="form-control" id="image" name="image">
+                            <input type="file" class="form-control" id="image" name="imageFile">
                         </div>
                         <div class="col-md-6 mb-3">
                             <label for="makeDate" class="form-label"> Product Manufacture Date</label>

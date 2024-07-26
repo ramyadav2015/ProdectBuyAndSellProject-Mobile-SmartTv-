@@ -63,7 +63,7 @@ public class SellProdectController {
 	@PostMapping("/sell_submit")
 	public ModelAndView sellHandler(@ModelAttribute ProdectBean bean,@RequestParam("imageFile") MultipartFile file, ModelAndView view) {
 		
-	
+		System.out.println(bean);
 		int result = serviceClass.sellprodect( bean,file);
 		
 		if(result==1) {
